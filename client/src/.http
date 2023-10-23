@@ -1,0 +1,25 @@
+###
+GET  https://image-generator-server-ypgr-dev.fl0.io/users
+
+###
+POST https://image-generator-server-ypgr-dev.fl0.io/users
+
+Content-Type: application/json
+
+{
+    "user" : "aziel",
+    "age" : 23 , 
+}
+
+###
+PUT https://image-generator-server-ypgr-dev.fl0.io/users/9062f35a-a9ef-4f86-bb1e-0f9d1875d606
+
+Content-Type: application/json
+
+{
+    "user" : "aziel",
+    "age" : 23 , 
+}
+
+
+
